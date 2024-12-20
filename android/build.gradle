@@ -26,6 +26,8 @@ apply plugin: 'com.android.library'
 apply plugin: 'kotlin-android'
 
 android {
+
+    namespace 'appmire.be.flutterjailbreakdetection'
     compileSdkVersion 33
 
     sourceSets {
